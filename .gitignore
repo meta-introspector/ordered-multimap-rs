@@ -2,3 +2,5 @@
 /mutants.out.old
 /target
 Cargo.lock
+vendor
+!Makefile
