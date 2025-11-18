@@ -4,3 +4,4 @@
 Cargo.lock
 vendor
 !Makefile
+process-repo.log

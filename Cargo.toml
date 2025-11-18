@@ -8,7 +8,7 @@ repository = "https://github.com/sgodwincs/ordered-multimap-rs"
 description = "Insertion ordered multimap"
 readme = "README.md"
 categories = ["data-structures"]
-rust-version = "1.71.1"
+# rust-version = "1.71.1"
 
 [dependencies]
 dlv-list = { version = "0.5", default-features = false }
@@ -23,4 +23,7 @@ std = ["dlv-list/std"]
 coverage-helper = "0.2.0"
 serde_test = "1.0.144"
 
-[workspace]
+#[workspace]
+
+[package.metadata.cargo2nix]
+cargo2nix_path = "/data/data/com.termux.nix/files/home/pick-up-nix2/vendor/rust/cargo2nix/target/debug/cargo2nix"
